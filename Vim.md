@@ -26,3 +26,7 @@
 Delete function  
 - va{V  
 - vf{%  
+
+**Registers**
+- "a       - replaces the a register
+- "A       - appends to the a register
