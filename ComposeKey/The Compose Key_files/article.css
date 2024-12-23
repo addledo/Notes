@@ -1,0 +1,174 @@
+.section>h1 {
+	font-size:1.8em;
+}
+.keywords {
+	font-family:Verdana,Arial,sans-serif;
+	color:#707070;
+	font-size:0.9em;
+	margin-bottom:1em;
+}
+.section.article h1,
+.section.article h2,
+.section.article h3
+{
+	margin:0.5em 0 0.5em 0;
+}
+.section.article .quote {
+	font-family:'Raleway', sans-serif;
+	margin-top:1em;
+	margin-bottom:1.2em;
+	clear:both;
+}
+.section.article .quote .author {
+	margin:0.3em 0 0 6em;
+	font-size:0.9em;
+}
+.section.article .quote .author a {
+	margin-left:0.3em;
+}
+.section.article .slides-cluster, .section.article .diagram, .section.article .video {
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+}
+.section.article .mleft {
+	margin-left:0;
+	margin-right:auto;
+}
+.section.article .mcenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+.section.article .diagram img {
+	width:100%;
+	height:100%;
+}
+.section.article .slides-text {
+	text-align:center;
+}
+.section.article .diagram-text {
+	line-height:normal;
+	margin-top:0.3em;
+	display:inline-block;
+	text-align:center;
+	width:100%;	overflow:auto;
+}
+.section.article .video-text {
+	line-height:normal;
+	text-align:center;
+	width:100%;	overflow:auto;
+}
+.section.article code {
+	font-family:monospace;
+	color:black;
+	background-color:#c8c8c8;
+	padding: 0 0.3em 0 0.3em;
+	border-radius:4px;
+	overflow:auto;
+}
+.section.article code.codeblock {
+	display:block;
+	margin: 1em auto 1em auto;
+	padding-left:4%;
+	padding-top:1em;
+	padding-bottom:1em;
+	/*width:80%;*/
+	width:96%;
+}
+span.codeline {
+	display:block;
+	white-space: pre;
+}
+span.codeline .kwd {
+	color:#3050a0;
+	font-weight:bold;
+}
+span.codeline .comment {
+	color:#107010;
+}
+span.codeline .num {
+	color:#0000d0;
+}
+.aside {
+	font-size:0.9em;
+	padding-left:2em;	border-left:5px solid #b0b0b0;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+span.procon-bad {
+	font-weight:bold;
+	color:red;
+}
+span.procon-good {
+	font-weight:bold;
+	color:green;
+}
+span.signoff {
+	margin-left:1em;
+}
+.section.article .note, .section.article .jsnote {
+	font-weight:bolder;
+	font-size:15px;
+	vertical-align:top;
+	color:#01441c;
+}
+.section.article .noteInner {
+	border-bottom:1px dotted black;
+	vertical-align:top;
+}
+.note[title] {
+	position: relative;
+	padding:1em 0 1em 0;
+}
+.note[title]:focus::after {
+	font-weight:normal;
+	color:black;
+    background: #ebe9d3;
+    border: 1px solid #303030;
+    content: attr(title);
+    position: absolute;
+    top: 90%;
+    width:fit-content;
+    min-width: 0em;
+    max-width: 30em;
+    padding: 0.5ex 4ex 0.5ex 1ex;
+; +%]
+; +%]
+}
+.infobox-bg {
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color:black;
+	opacity:0.2;
+}
+.infobox {
+	display:none;
+	font-family:Verdana,Arial,sans-serif;
+	position:absolute;
+	width:100%;
+	max-width:40%;
+	margin: 0 auto;
+	left:0;
+	right:0;
+	padding:0.5em 1em 0.5em 1em;
+	background:#ebe9d3;
+	color:black;
+	border:1px solid #303030;
+}
+ol.bottomNotes li {
+	margin-bottom:0.8ex;
+}
+ol.bottomNotes li ul, ol.bottomNotes li ol {
+	padding: 0 0 0 1em;
+}
+@media screen and (max-width:590px){
+	.section.article .quote {
+		padding-top:0.8em;
+	}
+	.section.article .slides-cluster, .section.article .diagram, .section.article .video {
+		width:100%;
+	}
+}

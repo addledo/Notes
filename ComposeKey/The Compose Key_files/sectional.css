@@ -1,0 +1,46 @@
+.section {
+	background:#b0b0b0;
+	margin: 0 auto;
+	max-width:65em;
+	font-family:Verdana,Arial,sans-serif;
+	line-height:1.3;
+}
+.section.legal {
+}
+.section.legal h1
+,.section.legal h2
+,.section.legal h3
+{
+	padding-bottom:0.3em;
+}
+.section.legal p+h1
+,.section.legal p+h2
+,.section.legal p+h3
+{
+	padding-top:0.3em;
+}
+.section>h1 {
+	padding-top:0.3em;
+}
+.section>.pages {
+}
+.section .page {
+	padding: 1em 1em 1em 1em;
+	background:#d8d8d8;
+	box-shadow:3px 5px 7px #909090;
+	margin-top:1ex;
+}
+.section .page:first-of-type {
+	margin-top:0;
+}
+.section .page .topStrip {
+}
+.tstamp {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:0.725em;
+	float:right;
+	color:#707070;
+}
+.snailmail {
+	margin:0.5em 0 0.5em 3em;
+}

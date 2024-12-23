@@ -1,0 +1,256 @@
+#header>h1 {
+	font-size: 1.10cm;
+}
+#nav {
+	font-size: 0.66cm;
+}
+.smallnote {
+	font-size:68%;
+}
+.morsel {
+	height: 21.28cm;
+	line-height: 21.28cm;
+}
+.morsel>.content {
+	font-size: 0.64cm;
+}
+.morsel>.content h1 {
+	font-size: 1.02cm;
+	text-shadow:2px 3px 5px #909090;
+	margin-bottom: 0.21cm;
+}
+.morsel>.content h2 {
+	font-size: 0.79cm;
+	text-shadow:2px 3px 5px #909090;
+	margin-bottom: 0.21cm;
+}
+.section {
+	width:50%;
+}
+.section.article .quote {
+	margin-left:5em;
+	font-style:italic;
+}
+@media screen and (max-width:50cm) {
+	#header>h1 {
+		font-size: 1.10cm;
+	}
+	#nav {
+		font-size: 0.66cm;
+	}
+	.smallnote {
+		font-size:68%;
+	}
+	.morsel {
+		height: 21.28cm;
+		line-height: 21.28cm;
+	}
+	.morsel>.content {
+		font-size: 0.64cm;
+	}
+	.morsel>.content h1 {
+		font-size: 1.02cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.21cm;
+	}
+	.morsel>.content h2 {
+		font-size: 0.79cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.21cm;
+	}
+	.section {
+		width:50%;
+	}
+	.section.article .quote {
+		margin-left:5em;
+		font-style:italic;
+	}
+}
+@media screen and (max-width:44cm) {
+	#header>h1 {
+		font-size: 1.00cm;
+	}
+	#nav {
+		font-size: 0.58cm;
+	}
+	.smallnote {
+		font-size:68%;
+	}
+	.morsel {
+		height: 18.72cm;
+		line-height: 18.72cm;
+	}
+	.morsel>.content {
+		font-size: 0.56cm;
+	}
+	.morsel>.content h1 {
+		font-size: 0.90cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.19cm;
+	}
+	.morsel>.content h2 {
+		font-size: 0.69cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.19cm;
+	}
+	.section {
+		width:62.5%;
+	}
+	.section.article .quote {
+		margin-left:4.25em;
+		font-style:italic;
+	}
+}
+@media screen and (max-width:38cm) {
+	#header>h1 {
+		font-size: 0.90cm;
+	}
+	#nav {
+		font-size: 0.50cm;
+	}
+	.smallnote {
+		font-size:68%;
+	}
+	.morsel {
+		height: 16.17cm;
+		line-height: 16.17cm;
+	}
+	.morsel>.content {
+		font-size: 0.49cm;
+	}
+	.morsel>.content h1 {
+		font-size: 0.78cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.16cm;
+	}
+	.morsel>.content h2 {
+		font-size: 0.60cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.16cm;
+	}
+	.section {
+		width:75%;
+	}
+	.section.article .quote {
+		margin-left:3.5em;
+		font-style:italic;
+	}
+}
+@media screen and (max-width:32cm) {
+	#header>h1 {
+		font-size: 0.80cm;
+	}
+	#nav {
+		font-size: 0.42cm;
+	}
+	.smallnote {
+		font-size:68%;
+	}
+	.morsel {
+		height: 13.62cm;
+		line-height: 13.62cm;
+	}
+	.morsel>.content {
+		font-size: 0.41cm;
+	}
+	.morsel>.content h1 {
+		font-size: 0.65cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.14cm;
+	}
+	.morsel>.content h2 {
+		font-size: 0.50cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.14cm;
+	}
+	.section {
+		width:87.5%;
+	}
+	.section.article .quote {
+		margin-left:2.75em;
+		font-style:italic;
+	}
+}
+@media screen and (max-width:26cm) {
+	#header>h1 {
+		font-size: 0.70cm;
+	}
+	#nav {
+		font-size: 0.34cm;
+	}
+	.smallnote {
+		font-size:68%;
+	}
+	.morsel {
+		height: 11.06cm;
+		line-height: 11.06cm;
+	}
+	.morsel>.content {
+		font-size: 0.33cm;
+	}
+	.morsel>.content h1 {
+		font-size: 0.53cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.11cm;
+	}
+	.morsel>.content h2 {
+		font-size: 0.41cm;
+		text-shadow:2px 3px 5px #909090;
+		margin-bottom: 0.11cm;
+	}
+	.section {
+		width:100%;
+	}
+	.section.article .quote {
+		margin-left:2em;
+		font-style:italic;
+	}
+}
+@media screen and (max-width:12cm){
+	.hideable {
+		display:none;
+	}
+	.hideellip::before {
+		content: "•••";
+	}
+	#main {
+		padding:0;
+	}
+	#footer {
+		border-top:1px solid #b0b0b0;
+		display:block;
+		text-align:center;
+	}
+	#footlhs {
+		float:none;
+	}
+	#footrhs {
+		float:none;
+	}
+	.morsel {
+		width:100%;
+		min-width:0;
+		margin-left:0;
+		margin-right:0;
+		margin-top:0;
+	}
+	.morsel>.content .vsep {
+		height:0.5em;
+	}
+		.morsel>.content h2 {
+		margin-top:0.11em;
+		margin-bottom:0.11em;
+	}
+	.section .page {
+	}
+	.section>h1 {
+		padding-left:0.5ex;
+	}
+	.section.article .quote {
+		margin-left:0;
+		font-size:0.8em;
+	}
+	.section.article ul {
+		padding-left:0.8em;
+	}
+}
