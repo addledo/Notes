@@ -1,0 +1,1 @@
+for i in {30..37} {90..97}; do printf "\e[%sm█\e[0m %s\n" "$i" "$i"; done

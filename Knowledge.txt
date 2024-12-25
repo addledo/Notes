@@ -1,0 +1,5 @@
+apt sources are stored in /etc/apt/sources.list
+
+make can be run with -j to use more (threads/cores?)
+	use nproc to get number of processing unites
+	or lspcu

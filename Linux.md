@@ -1,4 +1,5 @@
 **Terminal Commands**
+- nproc - prints number of processing units available
 - jobs - show background process
 - realpath <file> - gives full path
 - -   -s - don't expand symlinks
@@ -16,7 +17,9 @@
 - apropos - search commands
 - sudo su - switch to root user
 - tree [-d]
-- 
+- tac - cat in reverse
+- shutdown now - cooler than shutdown 0?
+
 *Manipulation*
 - | nl - adds line numbers
 - head -n - display first n lines
@@ -31,6 +34,7 @@
 - find -exec <command> - executes command on found files
 - -   find -exec echo <command> - echos what will be done (use before running actual command)
 - ls -1 - Lists each file on new line
+- (zsh) repeat 100 {}
   
 *apt*
 - apt list --installed | grep (regex e.g. ^nmap)
