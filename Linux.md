@@ -20,6 +20,11 @@
 - tac - cat in reverse
 - shutdown now - cooler than shutdown 0?
 
+**Image Conversion**
+-   Batch convert image files
+- -      mogrify -format png *.jpg  (all jpgs to png)
+    
+
 *Manipulation*
 - | nl - adds line numbers
 - head -n - display first n lines
