@@ -3,3 +3,6 @@ apt sources are stored in /etc/apt/sources.list
 make can be run with -j to use more (threads/cores?)
 	use nproc to get number of processing unites
 	or lspcu
+
+When using LightDM (desktop manager for Mint) - startup scripts can go in ~/.xprofile
+These commands will be executed at the beginning of the X user session, before the window manager is started.
